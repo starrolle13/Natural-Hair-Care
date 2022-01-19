@@ -107,7 +107,7 @@ _**Post MVP Stretch Goals**_
 
 ## Component Hierarchy
 
-![image](https://imgur.com/a/w5er6Tv)
+![image](./https://imgur.com/a/w5er6Tv)
 
 #### OPTIONAL Component Details
 | Component | Description | State/Props

@@ -8,7 +8,7 @@ My app is called Natural Hair Care for now. It is a location website for beauty 
 
 ### Home
 
-![All Movies](https://media.git.generalassemb.ly/user/17300/files/8e436980-3a87-11ea-931d-7a0189e8ce5c)
+![All Movies](https://i.ibb.co/p4XthNk/Screen-Shot-2022-01-19-at-12-59-59-PM.png)
 
 ### Movie Details
 
@@ -107,7 +107,7 @@ _**Post MVP Stretch Goals**_
 
 ## Component Hierarchy
 
-![image](./https://imgur.com/a/w5er6Tv)
+![image](https://i.ibb.co/6rm9LHT/Screen-Shot-2022-01-19-at-2-02-43-PM.png)
 
 #### OPTIONAL Component Details
 | Component | Description | State/Props

@@ -4,9 +4,9 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 import './index.css';
-import About from '.natural-hair-care/src/About.js';
-import Location from '.natural-hair-care/src/Location.js';
-import Pricing from '.natural-hair-care/src/Location.js';
+import About from './About.js';
+import Location from './Location.js';
+import Pricing from './Pricing.js';
 
 ReactDOM.render(
   <BrowserRouter>

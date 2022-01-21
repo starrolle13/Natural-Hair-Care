@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 import './index.css';
 import About from './About.js';
-import Location from './Location.js';
+import Locations from './Locations.js';
 import Pricing from './Pricing.js';
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
-      <Route path="/location" element={<Location />} />
+      <Route path="/locations" element={<Locations />} />
       <Route path="/pricing" element={<Pricing />} />
     </Routes>
   </BrowserRouter>,

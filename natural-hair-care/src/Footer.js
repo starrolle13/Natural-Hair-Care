@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div className="footerBox">
       <div className="footer">
-        <div className="footerLogo"></div>
+        <Link to="/" className="footerLogo"></Link>
         <div className="footerMenu">
           <Link to="/" className="footerHome">
             <h3>Home</h3>

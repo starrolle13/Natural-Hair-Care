@@ -17,11 +17,22 @@ body {
 .headerBox {
   position: relative;
   width: 1680px;
-  background-image: url('https://i.ibb.co/58snQ8z/pexels-karolina-grabowska-4202483.jpg');
+  background-image: url('https://images.pexels.com/photos/4202483/pexels-photo-4202483.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202483.jpg&fm=jpg');
   background-position: center center;
   background-size: cover;
   height: 750px;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textBox {
+  background-color: #fff9f5;
+  height: 300px;
+  width: 1280px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  color: #542a19;
 }
 .navBar {
   display: flex;
@@ -116,18 +127,18 @@ body {
 
 .footerPhone {
   text-decoration: none;
-  color: #fff9f5;
+  color: #fad0b1;
   font-family: 'Lato', sans-serif;
 }
 .footerEmail {
   text-decoration: none;
-  color: #fff9f5;
+  color: #fad0b1;
   font-family: 'Lato', sans-serif;
 }
 
 .footerAddress {
   text-decoration: none;
-  color: #fff9f5;
+  color: #fad0b1;
   font-family: 'Lato', sans-serif;
 }
 .footerContactUs {

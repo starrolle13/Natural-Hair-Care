@@ -17,7 +17,7 @@ body {
 .headerBox {
   position: relative;
   width: 1680px;
-  background-image: url('https://i.ibb.co/w6tFDrT/White-brown-organic-discount-facebook-cover-5.png');
+  background-image: url('https://i.ibb.co/58snQ8z/pexels-karolina-grabowska-4202483.jpg');
   background-position: center center;
   background-size: cover;
   height: 750px;
@@ -47,12 +47,6 @@ body {
   text-decoration: none;
 }
 
-/* h3 {
-  font-family: 'Lato', sans-serif;
-  color: #542a19;
-  text-decoration: none;
-} */
-
 .home {
   text-decoration: none;
   color: #542a19;
@@ -72,4 +66,77 @@ body {
   text-decoration: none;
   color: #542a19;
   font-family: 'Lato', sans-serif;
+}
+.logo {
+  background-image: url('https://i.ibb.co/pbTRzKF/Skyn-Lodge-5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 95px;
+  width: 250px;
+}
+
+.footerLogo {
+  background-image: url('https://i.ibb.co/5Ys1WCw/Skyn-Lodge-6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100px;
+  width: 250px;
+  margin: 75px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  /* gap: 50px; */
+}
+
+.footerHome {
+  text-decoration: none;
+  color: #fff9f5;
+  font-family: 'Lato', sans-serif;
+}
+.footerAbout {
+  text-decoration: none;
+  color: #fff9f5;
+  font-family: 'Lato', sans-serif;
+}
+.footerPrice {
+  text-decoration: none;
+  color: #fff9f5;
+  font-family: 'Lato', sans-serif;
+}
+.footerLocation {
+  text-decoration: none;
+  color: #fff9f5;
+  font-family: 'Lato', sans-serif;
+}
+
+.footerPhone {
+  text-decoration: none;
+  color: #fff9f5;
+  font-family: 'Lato', sans-serif;
+}
+.footerEmail {
+  text-decoration: none;
+  color: #fff9f5;
+  font-family: 'Lato', sans-serif;
+}
+
+.footerAddress {
+  text-decoration: none;
+  color: #fff9f5;
+  font-family: 'Lato', sans-serif;
+}
+.footerContactUs {
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
+}
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
 }

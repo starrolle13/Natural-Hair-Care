@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 #map {
   height: 400px;
   /* The height is 400 pixels */
@@ -10,4 +12,64 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.headerBox {
+  position: relative;
+  width: 1680px;
+  background-image: url('https://i.ibb.co/w6tFDrT/White-brown-organic-discount-facebook-cover-5.png');
+  background-position: center center;
+  background-size: cover;
+  height: 750px;
+  background-repeat: no-repeat;
+}
+.navBar {
+  display: flex;
+  height: 74px;
+  margin: 20px;
+  gap: 100px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.spacer {
+  height: 100px;
+}
+
+.menuRight {
+  display: flex;
+  gap: 15px;
+  text-decoration: none;
+}
+.footer {
+  height: 613px;
+  width: 1680px;
+  background-color: #542a19;
+  text-decoration: none;
+}
+
+/* h3 {
+  font-family: 'Lato', sans-serif;
+  color: #542a19;
+  text-decoration: none;
+} */
+
+.home {
+  text-decoration: none;
+  color: #542a19;
+  font-family: 'Lato', sans-serif;
+}
+.about {
+  text-decoration: none;
+  color: #542a19;
+  font-family: 'Lato', sans-serif;
+}
+.price {
+  text-decoration: none;
+  color: #542a19;
+  font-family: 'Lato', sans-serif;
+}
+.location {
+  text-decoration: none;
+  color: #542a19;
+  font-family: 'Lato', sans-serif;
 }

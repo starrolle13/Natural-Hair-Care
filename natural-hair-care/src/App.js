@@ -2,15 +2,10 @@ import './App.css';
 import NavBar from './NavBar';
 import MapBox from './MapBox';
 import { Wrapper, Status } from '@googlemaps/react-wrapper';
-// import ErrorComponent from './ErrorComponent';
-// import Spinner from './Spinner';
-// import React, { useEffect, useRef, ReactElement } from 'react';
+import Header from './Header';
+import Spacer from './Spacer';
+import Footer from './Footer';
 
-// const location = {
-//   address: '732 S Spring St, Los Angeles, California.',
-//   lat: 41.44417,
-//   lng: -90.15196
-// };
 console.log(process.env.REACT_APP_API_KEY);
 function App() {
   const render = (status: Status): ReactElement => {
@@ -24,11 +19,15 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Header />
+      <Spacer />
       <div className="mapBox">
         <Wrapper apiKey={process.env.REACT_APP_API_KEY} render={render}>
           <MapBox center={center} zoom={zoom} mapId={mapId} />
         </Wrapper>
       </div>
+      <Spacer />
+      <Footer />
     </div>
   );
 }

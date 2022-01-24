@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 #map {
   height: 400px;
-  /* The height is 400 pixels */
   width: 100%;
-  /* The width is the width of the web page */
 }
 
 body {
@@ -12,6 +9,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .headerBox {
@@ -30,18 +28,17 @@ body {
   background-color: #fff9f5;
   height: 300px;
   width: 1280px;
-  font-family: 'Lato', sans-serif;
   font-weight: bolder;
-  color: #542a19;
 }
 .navBar {
   display: flex;
-  height: 74px;
+  height: 90px;
   margin: 20px;
   gap: 100px;
   justify-content: space-between;
-  text-decoration: none;
+  font-weight: lighter;
 }
+
 .spacer {
   height: 100px;
 }
@@ -49,46 +46,37 @@ body {
 .menuRight {
   display: flex;
   gap: 15px;
-  text-decoration: none;
 }
 .footer {
   height: 613px;
   width: 1680px;
   background-color: #542a19;
-  text-decoration: none;
 }
 
 .home {
-  text-decoration: none;
   color: #542a19;
-  font-family: 'Lato', sans-serif;
 }
 .about {
-  text-decoration: none;
   color: #542a19;
-  font-family: 'Lato', sans-serif;
 }
 .price {
-  text-decoration: none;
   color: #542a19;
-  font-family: 'Lato', sans-serif;
 }
 .location {
-  text-decoration: none;
   color: #542a19;
-  font-family: 'Lato', sans-serif;
 }
 .logo {
-  background-image: url('https://i.ibb.co/pbTRzKF/Skyn-Lodge-5.png');
+  background-image: url('https://i.ibb.co/sy9PGpr/2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 95px;
+  height: 100px;
   width: 250px;
+  margin-bottom: 20px;
 }
 
 .footerLogo {
-  background-image: url('https://i.ibb.co/5Ys1WCw/Skyn-Lodge-6.png');
+  background-image: url('https://i.ibb.co/L0bNTYW/1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -101,45 +89,30 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  /* gap: 50px; */
 }
 
 .footerHome {
-  text-decoration: none;
   color: #fff9f5;
-  font-family: 'Lato', sans-serif;
 }
 .footerAbout {
-  text-decoration: none;
   color: #fff9f5;
-  font-family: 'Lato', sans-serif;
 }
 .footerPrice {
-  text-decoration: none;
   color: #fff9f5;
-  font-family: 'Lato', sans-serif;
 }
 .footerLocation {
-  text-decoration: none;
   color: #fff9f5;
-  font-family: 'Lato', sans-serif;
 }
 
 .footerPhone {
-  text-decoration: none;
   color: #fad0b1;
-  font-family: 'Lato', sans-serif;
 }
 .footerEmail {
-  text-decoration: none;
   color: #fad0b1;
-  font-family: 'Lato', sans-serif;
 }
 
 .footerAddress {
-  text-decoration: none;
   color: #fad0b1;
-  font-family: 'Lato', sans-serif;
 }
 .footerContactUs {
   display: flex;
@@ -150,4 +123,12 @@ body {
   display: flex;
   flex-direction: column;
   margin: 75px;
+  color: #fff9f5;
+}
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: lighter;
 }

@@ -5,6 +5,8 @@ import { Wrapper, Status } from '@googlemaps/react-wrapper';
 import Header from './Header';
 import Spacer from './Spacer';
 import Footer from './Footer';
+import HomeBanner from './HomeBanner';
+import Banner from './Banner';
 
 function App() {
   const render = (status: Status): ReactElement => {
@@ -20,6 +22,11 @@ function App() {
       <NavBar />
       <Header />
       <Spacer />
+      <Banner />
+      <Spacer />
+      <HomeBanner />
+      <Spacer />
+      <Banner />
       <div className="mapBox">
         <Wrapper apiKey={process.env.REACT_APP_API_KEY} render={render}>
           <MapBox center={center} zoom={zoom} mapId={mapId} />

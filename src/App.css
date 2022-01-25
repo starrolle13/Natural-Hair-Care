@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+body {
+  background-color: #fff9f5;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.headerBox {
+  position: relative;
+  width: 1680px;
+  background-image: url('https://images.pexels.com/photos/4194706/pexels-photo-4194706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center center;
+  background-size: cover;
+  height: 750px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerTextBox {
+  background-color: #fff9f5;
+  height: 300px;
+  width: 1280px;
+  font-weight: bolder;
+}
+.navBar {
+  display: flex;
+  height: 90px;
+  margin: 20px;
+  gap: 100px;
+  justify-content: space-between;
+  font-weight: lighter;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.menuRight {
+  display: flex;
+  gap: 15px;
+}
+.footerBox {
+  height: 613px;
+  width: 1680px;
+  background-color: #542a19;
+}
+
+.home {
+  color: #542a19;
+}
+.about {
+  color: #542a19;
+}
+.price {
+  color: #542a19;
+}
+.location {
+  color: #542a19;
+}
+.logo {
+  background-image: url('https://i.ibb.co/sy9PGpr/2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.footerLogo {
+  background-image: url('https://i.ibb.co/L0bNTYW/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100px;
+  width: 250px;
+  margin: 75px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.footerHome {
+  color: #fff9f5;
+}
+.footerAbout {
+  color: #fff9f5;
+}
+.footerPrice {
+  color: #fff9f5;
+}
+.footerLocation {
+  color: #fff9f5;
+}
+
+.footerPhone {
+  color: #fad0b1;
+}
+.footerEmail {
+  color: #fad0b1;
+}
+
+.footerAddress {
+  color: #fad0b1;
+}
+.footerContactUs {
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
+}
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
+  color: #fff9f5;
+}
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: lighter;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 30px;
+}
+.instagram {
+  background-image: url('https://i.ibb.co/Tv0Rfrx/2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40px;
+  width: 40px;
+}
+.facebook {
+  background-image: url('https://i.ibb.co/y0R43ZJ/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40px;
+  width: 40px;
+}
+
+p {
+  color: #fad0b1;
+  font-weight: lighter;
+}
+.bannerBox {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+}
+.photoCard {
+  height: 400px;
+  width: 500px;
+  background-color: #fad0b1;
+  margin-top: 20px;
+}
+.bannerPhoto {
+  background-image: url('https://images.pexels.com/photos/6781116/pexels-photo-6781116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 442px;
+  width: 714px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.textBox {
+  height: 400px;
+  width: 500px;
+  background-color: #fad0b1;
+  margin-top: 20px;
+}
+.locationTextBox {
+  background-color: #fff9f5;
+  height: 300px;
+  width: 1280px;
+  font-weight: bolder;
+}
+
+.bannerText {
+  height: 442px;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.locationHeaderBox {
+  position: relative;
+  width: 1680px;
+  background-image: url('https://images.pexels.com/photos/4202483/pexels-photo-4202483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center center;
+  background-size: cover;
+  height: 750px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacy {
+  margin: 100px;
+  padding: 70px;
+  background-color: white;
+  box-shadow: 5px 5px 8px #888888;
+}

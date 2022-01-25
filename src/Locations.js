@@ -1,26 +1,26 @@
-import './App.css';
 import NavBar from './NavBar';
 import MapBox from './MapBox';
 import { Wrapper, Status } from '@googlemaps/react-wrapper';
-import Header from './Header';
 import Spacer from './Spacer';
 import Footer from './Footer';
+import Banner from './Banner';
+import LocationHeader from './LocationHeader';
 
-console.log(process.env.REACT_APP_API_KEY);
-function App() {
+function Locations() {
   const render = (status: Status): ReactElement => {
     if (status === Status.LOADING) return <h3>{status} ..</h3>;
     if (status === Status.FAILURE) return <h3>{status} ...</h3>;
     return null;
   };
-  const center = { lat: 41.44417, lng: -90.15196 };
+  const center = { lat: 41.44, lng: -90.15 };
   const zoom = 12;
   const mapId = 'fbe3afe67839325';
   return (
-    <div className="App">
+    <div>
       <NavBar />
-      <Header />
+      <LocationHeader />
       <Spacer />
+      <Banner />
       <div className="mapBox">
         <Wrapper apiKey={process.env.REACT_APP_API_KEY} render={render}>
           <MapBox center={center} zoom={zoom} mapId={mapId} />
@@ -32,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default Locations;

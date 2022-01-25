@@ -1,10 +1,12 @@
+import './App.css';
 import NavBar from './NavBar';
 import MapBox from './MapBox';
 import { Wrapper, Status } from '@googlemaps/react-wrapper';
+import Header from './Header';
 import Spacer from './Spacer';
 import Footer from './Footer';
 
-function Locations() {
+function App() {
   const render = (status: Status): ReactElement => {
     if (status === Status.LOADING) return <h3>{status} ..</h3>;
     if (status === Status.FAILURE) return <h3>{status} ...</h3>;
@@ -14,8 +16,9 @@ function Locations() {
   const zoom = 12;
   const mapId = 'fbe3afe67839325';
   return (
-    <div>
+    <div className="App">
       <NavBar />
+      <Header />
       <Spacer />
       <div className="mapBox">
         <Wrapper apiKey={process.env.REACT_APP_API_KEY} render={render}>
@@ -28,4 +31,4 @@ function Locations() {
   );
 }
 
-export default Locations;
+export default App;

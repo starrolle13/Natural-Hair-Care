@@ -28,8 +28,6 @@ body {
   height: 300px;
   width: 1280px;
   font-weight: bolder;
-  /* display: flex;
-  flex-direction: column; */
 }
 .headerText {
   color: #fff9f5;
@@ -203,7 +201,7 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 30px;
+  font-size: 50px;
   color: #fff9f5;
 }
 
@@ -394,4 +392,22 @@ button {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.rTextBox {
+  height: 500px;
+  width: 700px;
+  /* background-color: #fad0b1; */
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rText {
+  color: #ba7247;
+  font-size: 20px;
+}
+
+.reviewBanner {
+  display: flex;
+  justify-content: center;
 }

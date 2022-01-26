@@ -8,6 +8,7 @@ import Footer from './Footer';
 import HomeBanner from './HomeBanner';
 import Banner from './Banner';
 import SocialMedia from './SocialMedia';
+import ReviewBanner from './ReviewBanner';
 
 function App() {
   const render = (status: Status): ReactElement => {
@@ -25,6 +26,9 @@ function App() {
       <Spacer />
       <Banner />
       <Spacer />
+
+      <ReviewBanner />
+      <Spacer />
       <HomeBanner />
       <Spacer />
       <Banner />
@@ -36,7 +40,7 @@ function App() {
       </div>
       <Spacer />
       <SocialMedia />
-      <Spacer />
+      {/* <Spacer /> */}
       <Footer />
     </div>
   );

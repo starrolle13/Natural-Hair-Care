@@ -20,6 +20,8 @@ function App() {
   const center = { lat: 41.44417, lng: -90.15196 };
   const zoom = 12;
   const mapId = 'fbe3afe67839325';
+  const mapTypeId = 'hybrid';
+
   return (
     <div className="App">
       <NavBar />
@@ -36,7 +38,12 @@ function App() {
       <Spacer />
       <div className="mapBox">
         <Wrapper apiKey={process.env.REACT_APP_API_KEY} render={render}>
-          <MapBox center={center} zoom={zoom} mapId={mapId} />
+          <MapBox
+            center={center}
+            zoom={zoom}
+            mapId={mapId}
+            mapTypeId={mapTypeId}
+          />
         </Wrapper>
       </div>
       <Spacer />

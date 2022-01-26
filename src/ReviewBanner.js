@@ -15,7 +15,6 @@ function ReviewBanner() {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </article>
           </div>
-          {/* <button className="hBButton">Visit Our Store</button> */}
         </div>
       </div>
     </div>

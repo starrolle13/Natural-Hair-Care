@@ -3,11 +3,14 @@ import React, { useEffect, useRef } from 'react';
 function MapBox({
   center,
   zoom,
-  mapId
+  mapId,
+  mapTypeId,
+  Mar
 }: {
   center: { lat: 41.44417, lng: -90.15196 },
   zoom: 12,
-  mapId: 'fbe3afe67839325'
+  mapId: 'fbe3afe67839325',
+  mapTypeId: 'hybrid'
 }) {
   const ref = useRef();
 

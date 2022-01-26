@@ -19,12 +19,12 @@ function Footer() {
           </Link>
           <div className="social">
             <h4>Follow us @skynlodge</h4>
-            <Link to="https://www.facebook.com/skynlodge">
+            <a href="https://www.facebook.com/skynlodge">
               <div className="facebook"></div>
-            </Link>
-            <Link to="https://www.instagram.com/skynlodge/">
+            </a>
+            <a href="https://www.instagram.com/skynlodge/">
               <div className="instagram"></div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="footerContactUs">

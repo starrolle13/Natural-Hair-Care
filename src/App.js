@@ -30,10 +30,9 @@ function App() {
       <PhotoBanner />
       <Spacer />
       <Spacer />
-      <ReviewBanner />
-      <Spacer />
       <HomeBanner />
       <Spacer />
+      <ReviewBanner />
       <Banner />
       <Spacer />
       <div className="mapBox">

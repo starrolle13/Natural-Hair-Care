@@ -21,6 +21,7 @@ function Locations() {
       <LocationHeader />
       <Spacer />
       <Banner />
+      <Spacer />
       <div className="mapBox">
         <Wrapper apiKey={process.env.REACT_APP_API_KEY} render={render}>
           <MapBox center={center} zoom={zoom} mapId={mapId} />

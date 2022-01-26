@@ -7,6 +7,7 @@ import Spacer from './Spacer';
 import Footer from './Footer';
 import HomeBanner from './HomeBanner';
 import Banner from './Banner';
+import SocialMedia from './SocialMedia';
 
 function App() {
   const render = (status: Status): ReactElement => {
@@ -27,11 +28,14 @@ function App() {
       <HomeBanner />
       <Spacer />
       <Banner />
+      <Spacer />
       <div className="mapBox">
         <Wrapper apiKey={process.env.REACT_APP_API_KEY} render={render}>
           <MapBox center={center} zoom={zoom} mapId={mapId} />
         </Wrapper>
       </div>
+      <Spacer />
+      <SocialMedia />
       <Spacer />
       <Footer />
     </div>

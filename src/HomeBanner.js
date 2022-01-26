@@ -15,7 +15,9 @@ function HomeBanner() {
             culpa qui officia deserunt mollit anim id est laborum.
           </article>
         </div>
-        <button className="hBButton">Visit Our Store</button>
+        <a href="https://www.instagram.com/skynlodge/" class="button">
+          Visit Our Store
+        </a>
       </div>
       <div className="circleTwo"></div>
     </div>

@@ -10,7 +10,9 @@ function SocialMedia() {
       <div className="gridBox2">
         <p>@skynlodge</p>
         <h1 className="notified">Get notified about our new products</h1>
-        <button>FOLLOW US</button>
+        <a href="https://www.instagram.com/skynlodge/" class="button">
+          Follow Us
+        </a>
       </div>
       <div className="gridBox3">
         <div className="box5"></div>

@@ -9,6 +9,7 @@ import HomeBanner from './HomeBanner';
 import Banner from './Banner';
 import SocialMedia from './SocialMedia';
 import ReviewBanner from './ReviewBanner';
+import PhotoBanner from './PhotoBanner';
 
 function App() {
   const render = (status: Status): ReactElement => {
@@ -24,9 +25,9 @@ function App() {
       <NavBar />
       <Header />
       <Spacer />
-      <Banner />
+      <PhotoBanner />
       <Spacer />
-
+      <Spacer />
       <ReviewBanner />
       <Spacer />
       <HomeBanner />

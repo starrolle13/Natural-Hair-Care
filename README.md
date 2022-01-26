@@ -74,10 +74,10 @@ _**Post MVP Stretch Goals**_
 
 ## 🤝 Credits
 
-#### -[Dev.TO](https://dev.to/rohit19060/how-to-write-stunning-github-readme-md-template-provided-5b09)
+#### -[MDN](https://developer.mozilla.org/en-US/)
 
 #### -[Stack Overflow](https://stackoverflow.com/)
 
-#### -[Blackpast.org](https://www.blackpast.org/african-american-history/compton-california-1867/)
+#### -[Flexbox Cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 Give a ⭐️ if you like this project!

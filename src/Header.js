@@ -7,7 +7,9 @@ function Header() {
           <br /> Love the skyn you're in.
         </h1>
         <p>Check out our skin care locations and pricing</p>
-        <button>Check Us Out</button>
+        <a href="https://www.instagram.com/skynlodge/" class="button">
+          Check Us Out
+        </a>
       </div>
     </div>
   );

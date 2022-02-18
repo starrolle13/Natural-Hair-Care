@@ -14,7 +14,7 @@ body {
 
 .headerBox {
   position: relative;
-  width: 1680px;
+  width: 100%;
   background-image: url('https://images.pexels.com/photos/7796752/pexels-photo-7796752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-position: center center;
   background-size: cover;
@@ -52,7 +52,7 @@ body {
 }
 .footerBox {
   height: 613px;
-  width: 1680px;
+  width: 100%;
   background-color: #542a19;
 }
 
@@ -501,8 +501,133 @@ p {
   background-position: center center;
   background-size: cover;
   margin-left: 100px;
+  margin-top: 100px;
 }
 .notified {
   font-size: 30px;
   color: #542a19;
+}
+
+/* 
+//media query */
+
+@media screen and (max-width: 767px) {
+  .mediaBox {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ba7247;
+    align-items: center;
+    justify-content: center;
+  }
+  .gridBox1 {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    background-color: #ba7247;
+  }
+  .gridBox2 {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .gridBox3 {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    background-color: #ba7247;
+  }
+  .box1 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/7796749/pexels-photo-7796749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box2 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/7796983/pexels-photo-7796983.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box3 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/5885678/pexels-photo-5885678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box4 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/7796813/pexels-photo-7796813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box5 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/7796811/pexels-photo-7796811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box6 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/7796977/pexels-photo-7796977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box7 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/7796746/pexels-photo-7796746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box8 {
+    height: 100px;
+    width: 150px;
+    background-color: #fff9f5;
+    background-image: url('https://images.pexels.com/photos/7796979/pexels-photo-7796979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .reviewPhoto {
+    width: 500px;
+    height: 200px;
+    background-image: url('https://i.ibb.co/QbwcLDy/Skyn-Lodge-9.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
+  }
 }
